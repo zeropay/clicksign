@@ -1,9 +1,9 @@
 {
-  "name": "clicksign",
-  "version": "0.0.0",
+  "name": "@zeropay/clicksign",
+  "version": "0.0.1",
   "description": "",
-  "private": true,
   "main": "dist/index.js",
+  "license": "MIT",
   "scripts": {
     "start": "node -r dotenv/config dist/index.js",
     "build": "babel-node assets.js && babel src --out-dir dist",
